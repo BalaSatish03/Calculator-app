@@ -1,0 +1,63 @@
+ *{
+            margin-top: 0;
+            margin-bottom: 0;
+            padding:0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .cal {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        textarea {
+            width: 92%;
+            height: 40px;
+            margin: 0;
+            padding: 10px;
+            font-size: 35px;
+            font-weight:bolder ;
+            text-align: right;
+            border: 3px solid #ccc;
+            border-radius:3px;
+            resize: none;
+            outline: none;
+            border-bottom: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            width: 25%;
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+            border-radius: 1px;
+            background-color: #e0e0e0;
+            cursor: pointer;
+            border: 3px solid #ccc;
+            transition: background-color 0.2s ease;
+            
+        }
+        td:hover {
+            background-color: #b2aeae;
+        }
+        td:nth-child(4), td:nth-child(4) {
+            background-color: #f9a825;
+            color: rgb(15, 13, 13);
+        }
+        td:nth-child(4):hover, td:nth-child(4):hover {
+            background-color: #e26e09;
+        }
+        
+        

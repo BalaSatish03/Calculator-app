@@ -38,6 +38,14 @@ function handleButtonClick(event) {
     } else if (buttonValue=='⌫'){
         clearValue();
     }
+        else if(buttonValue=='+/-'){
+        if(display.value.startsWith('-')){
+            display.value=display.value.slice(1);
+        }
+        else{
+            display.value='-'+display.value;
+        }
+    }
     else {
         appendToDisplay(buttonValue);
     }
